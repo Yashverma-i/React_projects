@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.subhead1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: 5px solid black;
+    font-size: 30px;
+    color: rgb(15, 55, 3);
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.subhead2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+button{
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 20px ;
+    padding: 20px;
+    margin: 10px;
+    &:hover{
+        background-color: rgb(5, 255, 5);
+    color: rgb(255, 0, 0);
+
+    }
+}
+.reset{
+    &:hover{
+    background-color: red;
+    color: rgb(224, 224, 224);
+    }
+}

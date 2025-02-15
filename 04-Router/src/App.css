@@ -1,0 +1,17 @@
+.nava{
+  font-size: 20px;
+  float: right;
+  list-style: none;
+  
+}
+.na{
+  display: flex;
+  padding: 10px ;
+  text-decoration: none;
+ 
+}
+a.active{
+  color: green;
+  border: 2px solid black;
+  border-radius: 20px;
+}

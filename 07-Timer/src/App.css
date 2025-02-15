@@ -1,0 +1,28 @@
+.inp{
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  text-align: center;
+}
+ 
+button{
+   width: 90px;
+   padding: 10px;
+   border-radius: 20px !important;
+   margin: 10px;
+   background-color: rgb(67, 244, 67);
+   margin: 10px !important;
+}
+.showContainer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 90px;
+   padding-top: 20px;
+}
+
+@media (max-width: 400px) {
+  .showContainer{
+    font-size: 40px;
+  }
+}

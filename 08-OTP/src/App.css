@@ -1,0 +1,19 @@
+.app{
+  text-align: center;
+}
+
+input{
+  background-color: rgb(224, 230, 236);
+  width: 70px;
+  height: 70px;
+  margin: 10px !important;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+input:focus{
+   outline-color: blue;
+}
+.error{
+  border: 2px solid red;
+}
