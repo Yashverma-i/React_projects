@@ -26,7 +26,7 @@ function App() {
       <span>{("0" + ((time/10) % 100)).slice(-2)}</span>
       </div>
       <div className='subhead2'>
-        {running ? (<button onClick={ () => {setRunnning(false)}}>Stop</button>) : (  <button onClick= {() => { setRunnning(true)}}>Start</button>)}
+        {running ? (<button onClick={ () => {setRunnning(false)}}>Stop</button>) : (<button onClick= {() => { setRunnning(true)}}>Start</button>)}
         <button className='reset' onClick={()=>{
           setTime(0);
           setRunnning(false)}}

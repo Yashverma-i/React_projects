@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>Employee Dashboard Management</h1>
+            <button class="createEmployee">Add Employee</button>
+        </header>
+    </div>
+
+    <div class="employees">
+        <div class="employees__name">
+            <span class="employees__name--title">Employee List</span>
+            <div class="employees__name--list"></div>
+        </div>
+    
+
+        <div class="employees__single">
+            <span class="employees__single--title">Employee Information</span>
+            <div class="employees__single--list"></div>
+        </div>
+
+</div>
+    <div class="addemployee">
+        <form action="" class="add__employee--create"> <h1>Add new employee  <span class="cross" style="float:inline-end; cursor: pointer;">❌</span></h1>
+         <div> <input type="text" name="firstname" placeholder="First name" required>
+               <input type="text" name="lastname" placeholder="Last name" required>
+               <input type="text" name="image_url" placeholder="image url (optional)">
+               <!-- <input type="file" name="image_url" placeholder="image (optional)"> -->
+            </div>
+               <input type="email" name="email" placeholder="email " required>
+               <input type="number" name="age" placeholder="age " required>
+               <input type="date" name="dob" placeholder="dob " required>
+               <input type="number" name="contactno" placeholder="contact no" required>
+               <input type="submit" value="submit" class="addemployee__create--submit">
+            </form>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

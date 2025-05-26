@@ -8,7 +8,7 @@ const getNums = () => {
   for(let i =1; i<=8;i++){
     list.push(i)
     list.push(i)
- }
+ }   
  return list;
 }
 
@@ -61,7 +61,7 @@ const getClassName = (num, index)=>{
   else if(opened.includes(index)) return 'show'
   else return 'hide'
 }
-
+// console.log(nums)
   return (
     <>
     <div className='text-center pt-4'>
@@ -83,12 +83,10 @@ const getClassName = (num, index)=>{
 
       {stage === 'win' && <div>
         <br />
-        <h1 className='bg-danger'>You won the game</h1>
-        <h3>Teri ma ki ch*t bsdk, l*uda mila jit krr </h3>
-        <img src="../images/samay.jpg" alt="error" /> <br />
-        <button onClick={handleStart}>Fir Khelega ☠️</button>
+        <h2 className='text-danger'>You won the game, WOW !!</h2>
+        <img src="../images/samay.jpg" alt="error" /> <br /> 
+        <button onClick={handleStart}> Fir Khelega ☠️</button>
         </div>}
-
     </div>
   </>
     )

@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --btn:#d2cdcd;
+    --btn-hover:#cacaca;
+    --item-bg:#efe8e8;
+    --model-bg: rgba(141,141,141,0.541);
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.header>button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border:none;
+    background-color: var(--btn);
+    cursor: pointer;
+    &:hover{
+        background-color: var(--btn-hover);
+    }
+}
+.employees{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.employees> div{
+    border: 1px solid black;
+    height: 550px;
+    overflow-y: scroll;
+}
+.employees__name{
+    width: 30%;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+.employees__single{
+    width: 70%;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+.employees__single--title,.employees__name--title{
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.employee__name--item:hover,
+.employee__name--item.selected{
+    background-color: var(--btn);
+}
+.employee__name--item{
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--item-bg);
+    display: flex;
+    justify-content: space-between;
+}
+.employee__single--heding{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.employee__data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.employee__data > img{
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(1, 20, 3);
+}
+   /* add employeeeeeeeeeeeeeee */
+   .addemployee{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: var(--model-bg);
+   }
+   .add__employee--create{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(239, 235, 235);
+    padding: 30px;
+    gap: 20px;
+   }
+   .add__employee--create > input{
+    padding: 10px;
+   }
+   .add__employee--create > div > input{
+    padding: 10px;
+   }
+
+  .addemployee__create--submit{
+        background: blue;
+        color: white;
+        padding: 10px;
+   }

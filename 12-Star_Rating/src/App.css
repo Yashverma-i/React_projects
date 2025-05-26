@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button{
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+}
+.on{
+color: black;
+}
+.off{
+color: rgb(123, 129, 137);
+}

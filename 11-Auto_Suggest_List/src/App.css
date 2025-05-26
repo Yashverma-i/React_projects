@@ -1,0 +1,48 @@
+.shoppingList{
+    background: #393838;
+    margin: 10px auto;
+    height: 170px;
+    width: 260px;
+    overflow-y: auto;
+    color: white;
+}
+.product{
+   text-align:left;
+   padding: 5px;
+   cursor: pointer;
+   &:hover{
+    background-color: #e3e3e3;
+    color: black;
+   }
+}
+.bucket{
+    width: 270px;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+.shopping_item{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #f49c9c;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  &:hover{
+  background-color: #ea8f8f;
+
+  }
+}
+button{
+    border: none;
+    background: none;
+    scale: 1.3;
+    &:hover{
+        scale: 1.5;
+    }
+}
+.strike{
+    text-decoration: line-through;
+    color: lightgray;
+}
