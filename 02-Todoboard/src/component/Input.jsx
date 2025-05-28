@@ -7,9 +7,11 @@ const Input = ({task, setTask}) => {
 
    const handleAddtask =(e)=>{
     e.preventDefault();
+    if(input)
     setTask([...task ,input]);
     setInput('')
    }
+   
   return (
     <>
       <form action=""> 

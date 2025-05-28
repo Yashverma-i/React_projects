@@ -47,7 +47,7 @@ function App() {
           e.preventDefault();
           if(index === data.length -1){
             console.log('form submitted');
-          setIssubmit(true)
+            setIssubmit(true)
           }
           else
           setIndex((idx)=>idx+1)

@@ -64,8 +64,7 @@ function App() {
               />
           </div>
          {data && data.length>=2 && <div className='text-center shoppingList'
-            onClick={handleShoppingList}
-          >
+            onClick={handleShoppingList}>
             {shoppingList.length>0 ? shoppingList.map((val,key)=>(
                 <h5
                 data-id={key}
@@ -77,8 +76,7 @@ function App() {
           <div className='bucket'>
             {bucket.map((item,key)=>(
               <div key={key} 
-              className='shopping_item'
-              >
+              className='shopping_item'> 
               <button onClick={()=>handleright(item.id)}>✅</button>
               <div className={item.isDone ? 'strike' : ''}>{item.data}</div>
               <button onClick={()=>handleDelete(item.id)}>❌</button>

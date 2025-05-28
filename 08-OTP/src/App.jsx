@@ -88,8 +88,7 @@ function App() {
           <button
             type="submit"
             onClick= {handleSubmit}
-            className="btn btn-success mt-3 px-3"
-          >
+            className="btn btn-success mt-3 px-3">
             Submit
           </button>
         </div>

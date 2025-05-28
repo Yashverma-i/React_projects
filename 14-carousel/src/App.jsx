@@ -4,6 +4,7 @@ import './App.css'
 function App() {
   const [images, setImages]= useState([])
   const [index, setIndex] = useState(0)
+  
   const fetchImages = async()=>{
     const url = `https://www.reddit.com/r/aww/top/.json?t=all`;
     const res = await fetch(url);

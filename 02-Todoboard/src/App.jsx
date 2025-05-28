@@ -22,7 +22,7 @@ function App() {
   useEffect (() =>{
        localStorage.setItem('lists', JSON.stringify(task))
   },[task])
-
+  
 
   return (
     <> 

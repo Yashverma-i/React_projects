@@ -14,7 +14,6 @@ function App() {
    const [timerID, setTimerId] = useState(0)
    const [isPaused, setIsPaused] = useState(false)
 
-
  const handleInput = (e)=>{
    const value= parseInt(e.target.value)
    const id = e.target.id;
@@ -24,7 +23,7 @@ function App() {
  }
 
  const handleStart = () =>{
-       if(hours<0 || minutes<0  || seconds<=0) {
+       if(hours<0 || minutes<0  || seconds<0) {
         alert('invalid input')
        }
        else 
@@ -54,7 +53,7 @@ function App() {
           setSeconds(59)
       }
       else {
-        setHours((h)=> h-1)
+        setHours((h)=> h-1)  
         setMinutes(59)
         setSeconds(59)
       }
@@ -87,7 +86,7 @@ function App() {
        <>
        <h1 className='text-center pt-5 fw-bold'>Auto Timer </h1>
 
-        {!isStart && <HandleInput  handleInput={handleInput} handleStart={handleStart}/>}
+        {!isStart && <HandleInput  handleInput={handleInput} handleStart={handleStart} />}
 
         {isStart &&  <ShowTimer hours={hours} minutes={minutes} seconds={seconds} isPaused={isPaused} handleResume={handleResume} handlePause={handlePause} handleReset={handleReset}/>}
        </>
