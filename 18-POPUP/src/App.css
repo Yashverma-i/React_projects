@@ -1,0 +1,40 @@
+
+
+/* .con1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} */
+.toast_container{
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+}
+.toasts{
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  height: 40px;
+  width: 250px;
+  background-color:green;
+  margin: 10px;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 1rem;
+  animation: slide 0.5s 1;
+  span{
+    right: 1rem;
+    position: absolute;
+    font-size: 1.2rem;
+  }
+}
+@keyframes slide{
+  0%{
+    transform: translate(100%);
+  }
+  100%{
+    transform: translate(0%);
+  }
+}

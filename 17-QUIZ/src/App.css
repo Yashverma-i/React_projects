@@ -1,0 +1,57 @@
+.question{
+   margin: 20px auto;
+   width: 60%;
+   border-radius: 15px;
+   border: 1px solid black;
+   padding: 20px;
+}
+.question h2{
+  margin-bottom: 20px;
+}
+.options{
+   list-style: none;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 20px;
+}
+.options li > button{
+    margin-bottom: 10px;
+    width: 100%;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color: #ccc;
+  }
+}
+.results{
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 5px;
+}
+.results ul{
+  list-style: none;
+  padding: 0;
+}
+.results span{
+  color: rgb(241, 35, 35);
+  font-weight: 800;
+  text-align: underline;
+  cursor: pointer;
+
+}
+.results li{
+  margin-bottom: 25px; 
+  padding-left: auto;
+  /* text-align: left; */
+}
+.results li[data-correct="true"]{
+  color: green;
+}
+.results li[data-correct="false"]{
+  color: red;
+}

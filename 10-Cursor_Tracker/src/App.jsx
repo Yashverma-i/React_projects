@@ -10,7 +10,7 @@ function App() {
     }
 
     window.addEventListener('mousemove', handleMouseMove)
-    
+           
     return () => {
       window.removeEventListener('mousemove', handleMouseMove)
     }
@@ -18,12 +18,12 @@ function App() {
 
   return (
     <>
-      <div 
+      {/* <div 
         className='cursor-dot' 
         style={{
           transform: `translate3d(${mousePosition.x}px, ${mousePosition.y}px, 0)`
         }}
-      ></div>
+      ></div> */}
       <div 
         className='cursor-outline' 
         style={{

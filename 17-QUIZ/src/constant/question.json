@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answerOption": [
+      { "text": "HyperText Markup Language", "isCorrect": true },
+      { "text": "Hyper Transfer Markup Language", "isCorrect": false },
+      { "text": "HighText Machine Language", "isCorrect": false },
+      { "text": "HyperText Machine Language", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which tag is used to link a CSS file in HTML?",
+    "answerOption": [
+      { "text": "<link>", "isCorrect": true },
+      { "text": "<style>", "isCorrect": false },
+      { "text": "<script>", "isCorrect": false },
+      { "text": "<css>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "answerOption": [
+      { "text": "//", "isCorrect": true },
+      { "text": "/* */", "isCorrect": false },
+      { "text": "#", "isCorrect": false },
+      { "text": "<!-- -->", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "In React, what keyword is used to create a component?",
+    "answerOption": [
+      { "text": "function", "isCorrect": true },
+      { "text": "component", "isCorrect": false },
+      { "text": "reactComponent", "isCorrect": false },
+      { "text": "define", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag is used to create a button?",
+    "answerOption": [
+      { "text": "<button>", "isCorrect": true },
+      { "text": "<btn>", "isCorrect": false },
+      { "text": "<input type='button'>", "isCorrect": false },
+      { "text": "<click>", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is JSX in React?",
+    "answerOption": [
+      { "text": "JavaScript XML", "isCorrect": true },
+      { "text": "Java Syntax Extension", "isCorrect": false },
+      { "text": "JSON Syntax Extension", "isCorrect": false },
+      { "text": "Java Standard XML", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which hook is used to add state in a functional component?",
+    "answerOption": [
+      { "text": "useState()", "isCorrect": true },
+      { "text": "useEffect()", "isCorrect": false },
+      { "text": "useContext()", "isCorrect": false },
+      { "text": "useReducer()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the default port number for running a React app?",
+    "answerOption": [
+      { "text": "3000", "isCorrect": true },
+      { "text": "8080", "isCorrect": false },
+      { "text": "5000", "isCorrect": false },
+      { "text": "8000", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you pass data from parent to child component in React?",
+    "answerOption": [
+      { "text": "Using props", "isCorrect": true },
+      { "text": "Using state", "isCorrect": false },
+      { "text": "Using Redux", "isCorrect": false },
+      { "text": "Using context", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which method is used to perform side effects in a React component?",
+    "answerOption": [
+      { "text": "useEffect()", "isCorrect": true },
+      { "text": "useState()", "isCorrect": false },
+      { "text": "render()", "isCorrect": false },
+      { "text": "useCallback()", "isCorrect": false }
+    ]
+  }
+]

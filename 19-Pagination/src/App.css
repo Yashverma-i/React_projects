@@ -1,0 +1,38 @@
+img{
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+}
+.post-container{
+  /* width: 1250px; */
+  height: 340px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.pagination__container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page-btnn{
+   background-color: black;
+   padding: 1.5rem;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer; 
+}
+.disabled{
+  background-color: gray;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.active{
+  color: black;
+  background: white;
+  border: 2px solid black;
+}
+.page-btnn:hover{
+  box-shadow: 0px 0px 12px rgba(1, 1, 0, 1);
+}
