@@ -24,7 +24,7 @@ function App() {
                                            
         const cpyInput = [...input];
         cpyInput[index] = val;
-        setInput(cpyInput);
+        setInput(cpyInput); 
      }
     const handleOnKeyDown = (e,index) => {
         if(e.keyCode === 8){
@@ -54,7 +54,7 @@ function App() {
       if(missed.length){
         return ;
       }
-
+      
       const userInput = input.join('')
       const isMatch = userInput === CODE;
       if(!isMatch) {
@@ -74,7 +74,7 @@ function App() {
           {emptArr.map((item ,i)=>{
             return <input
             value={input[i]}
-             key={i}
+            key={i}
             ref={refs[i]}
             type="text" maxLength='1' 
             onChange={(e)=> handleInputChange(e,i)}
