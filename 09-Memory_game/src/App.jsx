@@ -84,7 +84,7 @@ const getClassName = (num, index)=>{
       {stage === 'win' && <div>
         <br />
         <h2 className='text-danger'>You won the game, WOW !!</h2>
-        <img src="../images/samay.jpg" alt="error" /> <br /> 
+        <img src="./samay.jpg" alt="error" /> <br /> 
         <button onClick={handleStart}> Fir Khelega ☠️</button>
         </div>}
     </div>

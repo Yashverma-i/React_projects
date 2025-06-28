@@ -13,7 +13,7 @@
     height: 80px;
     width: 80px;  
     background-color: rgb(247, 229, 229);
-    cursor: url('/cursor.png'), pointer;
+    cursor: url('./cursor.png'), pointer;
     display: flex;
     align-items: center;
     justify-content: center;
