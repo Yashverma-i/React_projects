@@ -1,7 +1,8 @@
 import { useState , useEffect} from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-
+import samayImage from '../public/samay.jpg';
+// Remove the import for cursor.png, as it should be referenced from the public folder
 
 const getNums = () => {
   const list =[];
@@ -76,6 +77,7 @@ const getClassName = (num, index)=>{
         <div
         onClick={()=>handleClick(num,i)}
          className={`card ${getClassName(num,i)}`}
+         style={{ cursor: 'url(/cursor.png), pointer' }}
        key={i}>{num}</div>
       ))} </div>
       </div>
@@ -84,7 +86,7 @@ const getClassName = (num, index)=>{
       {stage === 'win' && <div>
         <br />
         <h2 className='text-danger'>You won the game, WOW !!</h2>
-        <img src="./samay.jpg" alt="error" /> <br /> 
+        <img src={samayImage} alt="image" /> <br /> 
         <button onClick={handleStart}> Fir Khelega ☠️</button>
         </div>} 
     </div>
